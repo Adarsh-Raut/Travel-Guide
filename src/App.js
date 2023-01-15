@@ -18,7 +18,6 @@ const App = () => {
       },
     );
   }, []);
-
   useEffect(() => {
     getPlacesData(bounds.sw, bounds.ne).then((data) => {
       console.log(data);
@@ -39,6 +38,7 @@ const App = () => {
             setCoordinates={setCoordinates}
             setBounds={setBounds}
             coordinates={coordinates}
+            places={places}
           />
         </Grid>
       </Grid>

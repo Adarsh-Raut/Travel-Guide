@@ -17,4 +17,10 @@ Google maps api --> https://developers.google.com/maps
 OpenWeatherMap api --> https://openweathermap.org/api
 
 
-Then you need to create a ".env" file to store your Google maps api, Rapid api's travel advisor api and openweathermap api
+Then you need to create a ".env" file to store your Google maps api, Rapid api's travel advisor api and openweathermap api.
+
+In the .env file paste your respective api keys without any qoutes.
+
+After doing everything run command 
+
+    npm start
